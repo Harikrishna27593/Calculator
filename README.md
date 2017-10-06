@@ -1,20 +1,10 @@
-
-
-# Loginapp
-
-
-
-## Usage
-
-
-
-## Developing
-
-
-
-### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
+ # Calculator
+  Calculator to demonstrate Stateless Web Services
+ 
+ Server: Node.js based server which performs the following tasks:
+ 1. Addition
+ 2. Subtraction
+ 3. Multiplication
+ 4. Division
+ 
+ Client : Uses features of HTML5 and can perform all the functionalities provided by the web service.
