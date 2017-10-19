@@ -26,19 +26,19 @@ function calculate(req,res) {
 	switch(req.param("optradio")){
 
 
-	case 'add':
+	case '1':
 		res1=(parseFloat(req.param("number1"),10)+parseInt(req.param("number2") , 10));
 		break;
 		
-	case 'sub':
+	case '2':
 		res1=(parseFloat(req.param("number1") ,10)-parseInt(req.param("number2") , 10));
 		break;
 		
-	case 'div':
+	case '4':
 		res1=(parseFloat(req.param("number1") ,10)/parseInt(req.param("number2") , 10));
 		break;
 		
-	case 'mul':
+	case '3':
 		res1=(parseFloat(req.param("number1") ,10)*parseInt(req.param("number2") , 10));
 		break;
 	}
